@@ -31,11 +31,9 @@ do
       
       for my $j(0 .. $#original)
       {
-
-        if($original[$j] =~ /[[:upper:]]/){
-        
+        if($original[$j] =~ /[[:upper:]]/)
+        {
           $token[$j] = uc($token[$j]);
-          
         }else
         {
           $token[$j] = lc($token[$j]);
