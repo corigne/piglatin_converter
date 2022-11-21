@@ -40,7 +40,6 @@ do
         }
       }
       $tokens[$i] = join('', @token);
-
     }
     
     foreach my $word(@tokens)
